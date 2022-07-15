@@ -172,7 +172,7 @@ export default function Home() {
         {currentAccount ? (
           <div>
             <form>
-              <div class="formgroup">
+              <div className="formgroup">
                 <label>Name</label>
                 <br />
 
@@ -184,7 +184,7 @@ export default function Home() {
                 />
               </div>
               <br />
-              <div class="formgroup">
+              <div className="formgroup">
                 <label>Send Albert a message</label>
                 <br />
 
@@ -222,7 +222,7 @@ export default function Home() {
                 margin: "5px",
               }}
             >
-              <p style={{ "font-weight": "bold" }}>"{memo.message}"</p>
+              <p style={{ "font-weight": "bold" }}>{memo.message}</p>
               <p>
                 From: {memo.name} at {memo.timestamp.toString()}
               </p>
