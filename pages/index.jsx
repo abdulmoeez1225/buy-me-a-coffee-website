@@ -224,7 +224,7 @@ export default function Home() {
             >
               <p style={{ "font-weight": "bold" }}>{memo.message}</p>
               <p>
-                From: {memo.name} at {memo.timestamp.toString()}
+                From: {memo.name} at {Date(memo.timestamp)}
               </p>
             </div>
           );
